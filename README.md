@@ -1,34 +1,17 @@
 # WeatherMobile App
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Purpose](#purpose)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [API Key Configuration](#api-key-configuration)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Acknowledgments](#acknowledgments)
-
 ## Introduction
-WeatherMobile is a mobile application that provides weather information for a given location. It allows users to search for weather data based on a place name or coordinates and provides real-time weather updates.
-
-## Purpose
-The purpose of this app is to demonstrate how to build a weather application for mobile devices. It serves as a practical example for developers who want to create weather-related apps using React Native and API integrations. 
+WeatherMobile is a mobile application that provides weather information for a given location. It allows users to search for weather data based on a place name or by the user's current location and provides real-time weather updates.
 
 ## Features
 - Search for weather information by place name.
-- Search for weather information by coordinates.
+- Search for weather information by user's current location.
 - Display real-time weather data, including temperature, feels-like temperature, and weather description.
 - Display weather icons to represent the current weather conditions.
 
 ## Getting Started
 
 ### Prerequisites
-Before you can run the WeatherMobile app, make sure you have the following prerequisites:
-- Node.js: [Installation Guide](https://nodejs.org/)
-- Expo CLI: [Installation Guide](https://docs.expo.io/get-started/installation/)
 - API Key: You'll need an API key from a weather data provider (e.g., OpenWeatherMap). You can obtain an API key by signing up on their website.
 
 ### API Key Configuration
@@ -38,6 +21,10 @@ Before you can run the WeatherMobile app, make sure you have the following prere
 
    ```plaintext
    EXPO_PUBLIC_API_KEY=YOUR_API_KEY_HERE
+4. At the same time also add following lines to your .env file
+   EXPO_PUBLIC_ICONS_URL: http://openweathermap.org/img/wn/
+   EXPO_PUBLIC_API_URL: https://api.openweathermap.org/data/2.5/weather?
+   EXPO_PUBLIC_API_URL2: https://api.openweathermap.org/geo/1.0/direct?
 
 # Installation
 1. git clone https://github.com/yourusername/WeatherMobile.git
