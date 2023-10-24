@@ -22,6 +22,7 @@ WeatherMobile is a mobile application that provides weather information for a gi
    ```plaintext
    EXPO_PUBLIC_API_KEY=YOUR_API_KEY_HERE
 4. At the same time also add following lines to your .env file
+   ```plaintext
    EXPO_PUBLIC_ICONS_URL: http://openweathermap.org/img/wn/
    EXPO_PUBLIC_API_URL: https://api.openweathermap.org/data/2.5/weather?
    EXPO_PUBLIC_API_URL2: https://api.openweathermap.org/geo/1.0/direct?
